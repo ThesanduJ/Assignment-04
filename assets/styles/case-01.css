@@ -1,0 +1,46 @@
+section{
+    position: absolute;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+section>div{
+    position: relative;
+    background-color: blueviolet;
+    width: 350px;
+    height: 50px;
+    margin: 45px 0;
+    left: -250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition-duration: 1s;
+}
+section>div>p{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    margin: auto;
+    color: #eeeeee;
+    font-weight: bold;
+}
+section>div>div{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+
+}
+section>div:hover{
+left: 0;
+}
+
+
+
+
+
