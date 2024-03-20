@@ -38,6 +38,7 @@ section>div>div{
 }
 section>div:hover{
 left: 0;
+    cursor: pointer;
 }
 
 
