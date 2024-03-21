@@ -1,0 +1,63 @@
+body {
+    background-image: url("../images/sky.jpg");
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+body>img:nth-child(1){
+    position: absolute;
+    width: 300vw;
+    height: 20vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: my-animation 2s infinite linear;
+}
+body>img:nth-child(2){
+    position: absolute;
+    width: 300vw;
+    height: 60vh;
+    bottom: 20vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: my-animation 2s infinite linear;
+}
+body>img:nth-child(3){
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 8.7vh;
+    margin: auto;
+}
+
+body>img:nth-child(4){
+    width: 6.6vw;
+    height: 6.6vw;
+    position: absolute;
+    bottom: 10vh;
+    left: 37vw;
+    animation: anima-02 linear 7s  infinite reverse;
+}
+body>img:nth-child(5){
+    width: 6.6vw;
+    height: 6.6vw;
+    position: absolute;
+    bottom: 10vh;
+    right: 38vw;
+    animation: anima-02 linear 7s  infinite reverse;
+}
+@keyframes my-animation {
+    100%{
+        left: -100vw;
+    }
+}
+@keyframes anima-02 {
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
