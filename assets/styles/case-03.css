@@ -1,0 +1,41 @@
+div{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    width: 300px;
+    height: 150px;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    animation: my-animation  infinite linear alternate;
+    animation-duration: 4s;
+
+}
+@keyframes my-animation {
+    0%{
+        margin-top: 0;
+        margin-left: 0;
+        background-color: blue;
+    }
+    25%{
+        margin-top: 0;
+        margin-left: calc(100vw - 300px);
+        background-color: yellow;
+    }
+    50%{
+        margin-top: calc(100vh - 150px);
+        margin-left: calc(100vw - 300px);
+        background-color: #ff253a;
+    }
+    75%{
+        margin-top: calc(100vh - 150px);
+        margin-left: 0;
+        background-color: deeppink;
+    }
+    100%{
+        margin-bottom: calc(100vh - 150px);
+        margin-left: 0;
+        background-color: orange;
+        transform: rotate(360deg);
+    }
+}
+
